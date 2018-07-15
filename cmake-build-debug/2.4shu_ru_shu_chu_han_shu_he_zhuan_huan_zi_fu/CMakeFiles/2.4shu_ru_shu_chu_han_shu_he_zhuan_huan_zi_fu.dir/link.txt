@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu.dir/main.c.o  -o 2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu 
