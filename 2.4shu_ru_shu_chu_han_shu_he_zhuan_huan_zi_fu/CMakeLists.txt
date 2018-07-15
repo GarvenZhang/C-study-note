@@ -1,0 +1,2 @@
+SET(2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu_SRC main.c)
+ADD_EXECUTABLE(2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu ${2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu_SRC})

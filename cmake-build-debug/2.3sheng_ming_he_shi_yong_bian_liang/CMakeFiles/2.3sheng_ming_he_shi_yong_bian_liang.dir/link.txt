@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/2.3sheng_ming_he_shi_yong_bian_liang.dir/main.c.o  -o 2.3sheng_ming_he_shi_yong_bian_liang 

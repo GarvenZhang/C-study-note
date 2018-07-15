@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/garven/codetest/realProject/C语言学习笔记/2.5ji_da_ji_ben_yun_suan_fu/main.c
+stdio.h
+-
+

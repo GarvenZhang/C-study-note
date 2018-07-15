@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C语言学习笔记"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\1.hello_world\;CMake Files\2.1bian_liang\;CMake Files\2.2shu_ju_lei_xing\;CMake Files\2.3sheng_ming_he_shi_yong_bian_liang\;CMake Files\2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu\;CMake Files\2.5ji_da_ji_ben_yun_suan_fu\;CMake Files\2.6shu_zu\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.hello_world">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/1.hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/Makefile&quot;  VERBOSE=1 1.hello_world"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.hello_world/fast">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/1.hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/Makefile&quot;  VERBOSE=1 1.hello_world/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/1.hello_world/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.1bian_liang">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/2.1bian_liang" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/Makefile&quot;  VERBOSE=1 2.1bian_liang"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.1bian_liang/fast">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/2.1bian_liang" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/Makefile&quot;  VERBOSE=1 2.1bian_liang/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.1bian_liang/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.2shu_ju_lei_xing">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/2.2shu_ju_lei_xing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/Makefile&quot;  VERBOSE=1 2.2shu_ju_lei_xing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.2shu_ju_lei_xing/fast">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/2.2shu_ju_lei_xing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/Makefile&quot;  VERBOSE=1 2.2shu_ju_lei_xing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.2shu_ju_lei_xing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.3sheng_ming_he_shi_yong_bian_liang">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/2.3sheng_ming_he_shi_yong_bian_liang" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/Makefile&quot;  VERBOSE=1 2.3sheng_ming_he_shi_yong_bian_liang"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.3sheng_ming_he_shi_yong_bian_liang/fast">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/2.3sheng_ming_he_shi_yong_bian_liang" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/Makefile&quot;  VERBOSE=1 2.3sheng_ming_he_shi_yong_bian_liang/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.3sheng_ming_he_shi_yong_bian_liang/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/Makefile&quot;  VERBOSE=1 2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/fast">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/Makefile&quot;  VERBOSE=1 2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.5ji_da_ji_ben_yun_suan_fu">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/2.5ji_da_ji_ben_yun_suan_fu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/Makefile&quot;  VERBOSE=1 2.5ji_da_ji_ben_yun_suan_fu"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.5ji_da_ji_ben_yun_suan_fu/fast">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/2.5ji_da_ji_ben_yun_suan_fu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/Makefile&quot;  VERBOSE=1 2.5ji_da_ji_ben_yun_suan_fu/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.5ji_da_ji_ben_yun_suan_fu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.6shu_zu">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/2.6shu_zu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/Makefile&quot;  VERBOSE=1 2.6shu_zu"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2.6shu_zu/fast">
+				<Option output="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/2.6shu_zu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/Makefile&quot;  VERBOSE=1 2.6shu_zu/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garven/codetest/realProject/C语言学习笔记/cmake-build-debug/2.6shu_zu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/1.hello_world/main.c">
+			<Option target="1.hello_world"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.1bian_liang/main.c">
+			<Option target="2.1bian_liang"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.2shu_ju_lei_xing/main.c">
+			<Option target="2.2shu_ju_lei_xing"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.3sheng_ming_he_shi_yong_bian_liang/main.c">
+			<Option target="2.3sheng_ming_he_shi_yong_bian_liang"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/main.c">
+			<Option target="2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.5ji_da_ji_ben_yun_suan_fu/main.c">
+			<Option target="2.5ji_da_ji_ben_yun_suan_fu"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.6shu_zu/main.c">
+			<Option target="2.6shu_zu"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/1.hello_world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1.hello_world\"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.1bian_liang/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2.1bian_liang\"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.2shu_ju_lei_xing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2.2shu_ju_lei_xing\"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.3sheng_ming_he_shi_yong_bian_liang/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2.3sheng_ming_he_shi_yong_bian_liang\"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2.4shu_ru_shu_chu_han_shu_he_zhuan_huan_zi_fu\"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.5ji_da_ji_ben_yun_suan_fu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2.5ji_da_ji_ben_yun_suan_fu\"/>
+		</Unit>
+		<Unit filename="/Users/garven/codetest/realProject/C语言学习笔记/2.6shu_zu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2.6shu_zu\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

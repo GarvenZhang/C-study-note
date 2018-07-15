@@ -1,0 +1,2 @@
+SET(2.3sheng_ming_he_shi_yong_bian_liang_SRC main.c)
+ADD_EXECUTABLE(2.3sheng_ming_he_shi_yong_bian_liang ${2.3sheng_ming_he_shi_yong_bian_liang_SRC})
